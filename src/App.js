@@ -40,7 +40,7 @@ function App({text, loading, error, repos, userFound, orgs}) {
       <div className = 'container'>
         <div className='iconDiv'><FontAwesomeIcon icon={faGithub}/></div>
       
-        <h1>Github Search</h1>
+        <h1>Github Searchflalal</h1>
         <Form inline onSubmit = {(e) => handleSearch(e)}>
           <FormControl type="text" placeholder="Search Username" className="mr-sm-2"
           onChange = {e => dispatch(searchUsername(e.target.value))} />
